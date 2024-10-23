@@ -1,0 +1,8 @@
+git_repo_url: https://github.com/ub-digit/fjarrkontrollen-deploy.git
+git_revision: release-2024.10.002
+docker_directory: './'
+docker_command: './docker-compose-release.sh'
+secret_env_variables:
+  FORMS_KOHA_PASSWORD: KOHAadmin123
+env_variables:
+  GUB_OAUTH2_CLIENT_ID: 2131eadawd12aawa
